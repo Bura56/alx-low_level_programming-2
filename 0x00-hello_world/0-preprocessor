@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Set the C file name
+CFILE="0-preprocessor"
+
+# Check if $CFILE variable is set
+if [ -z "$CFILE" ]; then
+    echo "Please set the C file name in the \$CFILE variable."
+    exit 1
+fi
+
+# Run the C file through the preprocessor and save the output to 'c'
+cpp "$CFILE" -o c
