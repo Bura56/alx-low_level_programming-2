@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	    char aphabet;
+char aphabet;
 
-	    for (aphabet = 'a'; aphabet <= 'z'; aphabet++)
-               {
-		   if (aphabet != 'e' && aphabet != 'q')
-		     putchar(aphabet);
-	       }
-		    putchar('\n');
+for (aphabet = 'a'; aphabet <= 'z'; aphabet++)
+{
+if (aphabet != 'e' && aphabet != 'q')
+putchar(aphabet);
+}
+putchar('\n');
 
-		      return (0);
+return (0);
 }
